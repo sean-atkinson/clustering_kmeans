@@ -1,9 +1,18 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) KMeans Isotope Lab
+# K-means Clustering:  Isotopic Composition Plutonium Batches
 
-This is a short lab for you to test your skills at clustering! The lab walks you through the full clustering process.
+![A left-hand with 'I'm a lefty' written on it](https://imgur.com/2ksgRt3.png)
+<a href="https://www.analyticsvidhya.com/blog/2021/04/k-means-clustering-simplified-in-python/"> Image courtesy of Analytics Vidhya</a>
 
-## Materials We Provide
+This data is fairly odd and K-Means may not be ideal for it in certain respects, but the takeaway is that it can do an ok job with whispy, elongated shapes.  
 
-| Topic | Description | Link |
-| --- | --- | --- |
-| Lab | Isotope Clustering Jupyter Notebook | [Link](./lab-kmeans-isotopes.ipynb)|
+(A more ideal model is probably DBSCAN or a hierachical clustering.)
+
+Here's our [data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/cluster/pluton.html) for the interested:
+
+    Pu238: the percentages of (238)Pu, always less than 2 percent.
+
+    Pu239: the percentages of (239)Pu, typically between 60 and 80 percent (from neutron capture of Uranium, (238)U).
+
+    Pu240: percentage of the plutonium 240 isotope.
+
+    Pu241: percentage of the plutonium 241 isotope.
